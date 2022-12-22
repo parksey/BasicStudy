@@ -70,6 +70,30 @@ git commit -m "메세지 내용"
 ![commit](./images/commit.PNG)
 
 
+#### **push**
+> 올릴 파일들을 선정 후, 해당 변경들의 내용을 작성하는 commit까지 하였으면 마지막으로 원격 저장소에 보내야한다.
+> 이를 `push`라고 한다.
+
+```
+git push origin {사용자아이디}
+Ex) git push origin parksey
+```
+- origin은 원격적장소 이름입니다.
+- 해당 이름도 변경은 가능합니다. (추후 공부해보세요)
+
+![push](./images/push.PNG)
+
+
+### Pull request!
+> Pull request를 하여 원작자에게 변경된 내용을 확인해봐! 라는 느낌으로 보내게 됩니다.
+> 이 기능은 코드리뷰를 요청할 때 사용하게 됩니다.
+```
+ex) 미션을 진행한 {사용자 아이디}/BasicStudy 사용자 아이디 브랜치 => parksey/BasicStudy main
+브랜치로 Pull Request를 보낸다.
+```
+- 자신이 fork한 레파지토리에서 PR버튼이 있으므로 보내면 된다.
+
+
 ### 올릴 양도 많지만 올리면 안되는 내용도 많을때
 > 말 그대로 `git add .`처럼 전체를 올리고 싶지만 제외해야할 파일이 1~2개가 아닐때 입니다.
 
