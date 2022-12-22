@@ -11,7 +11,7 @@
 
 fork를 하게 된다면 git에는 `parksey/BasicStudy`에서 `{자신의 Git Id}/BasicStudy`로 변경된다.
 
-
+---
 ### 2. Git clone 하기
 > Cmd 창에서 git에 있는 저장소에서 내 컴퓨터에 가져오는 역할을 합니다.
 
@@ -25,7 +25,7 @@ Ex) git clone https://github.com/parksey/BasicStudy.git
 
 ![clone](./images/clone.PNG)
 
-
+---
 ### 3. 자신만의 Branch 생성
 > 서로 다른 작업을 동시에 진행하면서 또 서로에게 영향을 주면 안됩니다.
 > 만약 영향을 주게 된다면 다른 사람이 변경한 내용을 모를 수도 있기때문에 별도의 공간을 만들어 진행합니다.
@@ -39,10 +39,35 @@ Ex) git checkout -b parksey
 
 ![branch](./images/branch.PNG)
 
-
+---
 ### 4. 자신이 사용할 IDE에서 불러온 후 코드 시작
 - 각 IDE에서 `clone`한 폴더를 열어서 시작하면 됩니다.
 
-
+---
 ### 5. 작성 후 작업한 목록 올리기
-> 작성을 다 했다고 끝나는 것이 아닙니다.
+> 작성을 다 했다고 끝나는 것이 아닙니다. 작성한 것을 올려야하는데 `add`와 `commit`을 사용합니다.
+
+#### **add**
+> git에 `올릴 파일`과 `올리지 않을 파일`을 구분해서 올려야 합니다. 실수라도 중요한 비밀번호를 가지고 있는 파일을 올릴 수는 없으니까요
+> 따라서 올릴 파일만 선택하는 것이 `add`입니다.
+
+```
+git add 파일
+git add .
+```
+- 위에는 하나의 파일만 올린 것입니다.
+![addOne](./images/addOne.PNG)
+
+- `아래(.)`는 변경된 전체 파일을 올린 것입니다.
+![addAll](./images/addAll.PNG)
+
+#### **commit**
+> 선정된 파일을 이제 원격 저장소에 올려야 합니다.
+
+```
+git commit -m "메세지 내용"
+```
+!
+
+
+###

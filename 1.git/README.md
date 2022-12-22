@@ -16,3 +16,6 @@
 6. git `branch` 만들기
 7. git `push`하는 방법
 8. `PR`보내는 방법
+
+## **하면 좋은 목록**
+1. `git commit style`에 맞춰 `commit`하기
