@@ -7,7 +7,7 @@
 > 이 외의 것은 추후에 공부하여도 된다.
 
 
-[Git 필수](./1.git/haveto)
+[Git 필수](./haveto)
 1. `git이란?`
 2. git의 `stage`와 `unstage`
 3. `commit이란?`
