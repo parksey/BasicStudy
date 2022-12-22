@@ -7,7 +7,7 @@
 > fork는 다른이의 계정의 저장소를 그대로 내게 가져오는 기능입니다.
 > 내가 해당 프로젝트에 참여하고 있지 않거나 다른이의 프로젝트에서 `변경을 원할 때 사용`합니다.
 
-[fork](./images/forkClick.PNG)
+![fork](./images/forkClick.PNG)
 
 fork를 하게 된다면 git에는 `parksey/BasicStudy`에서 `{자신의 Git Id}/BasicStudy`로 변경된다.
 
@@ -23,7 +23,7 @@ git clone https://github.com/{본인 아이디}/{저장소 이름}/.git
 Ex) git clone https://github.com/parksey/BasicStudy.git
 ```
 
-[clone](./images/clone.PNG)
+![clone](./images/clone.PNG)
 
 
 ### 3. 자신만의 Branch 생성
@@ -37,7 +37,7 @@ Ex) git checkout -b parksey
 - 새로운 branch를 만들어서 해당 브랜치로 전환합니다.
 - `git branch`를 통해 branch의 리스트를 확인할 수 있다.
 
-[branch](./images/branch.PNG)
+![branch](./images/branch.PNG)
 
 
 ### 4. 자신이 사용할 IDE에서 불러온 후 코드 시작
