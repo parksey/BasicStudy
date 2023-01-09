@@ -36,12 +36,30 @@ int main(void) {
 
 		}
 		else if (choice == 2) { //책 삭제 조건문
+			struct book newbook;
 			printf("삭제하고자 하는 책의 제목과 지은이를 입력해주세요.\n");
-			scanf_s("%s, %s", &title[29],30, &author[29],30);
-			for (i = 0; i < max; i++) {  //입력한 값과 booklist배열에 저장해놓은 문자열이 같을경우 빼는 동작을 원함.
+			scanf_s("%s %s", &newbook.title, 30, &newbook.author,30);
+			for (i = 0; i < max; i++) {
+				if (strcmp(newbook.title, booklist[i].title) != 0 || strcmp(newbook.author, booklist[i].author) !=0) {
+					
+					continue;
+				}
+				printf("%s", newbook.title);
+				
+				booklist[i].count--;
+				if (booklist[i].count == 0) {
+					for (int j = i + 1; j < max; j++) { //그다음칸에 있는 값을 전 값으로 보내야 하니까 i+1임
+						booklist[j - 1] = booklist[j]; //값을 전 배열 칸으로 옮기는 작업
 
+					}
+					max--;
+				}
+				
+
+				break;
+				
 			}
-			
+			printf("{책}을 삭제했습니다.\n\n");
 		}
 		else if (choice == 3) { //책 목록 출력 조건문
 			printf("도서관 내의 도서 리스트\n");
@@ -59,6 +77,7 @@ int main(void) {
 
 		else {
 			printf("[ERROR]\n");
+			rewind(stdin);
 
 		}
 
