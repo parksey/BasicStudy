@@ -1,5 +1,6 @@
 package controller
 
+import model.FoodData
 import view.InputView
 import view.OutputView
 
@@ -8,6 +9,7 @@ class Controller(private val inputView : InputView, private val outputView: Outp
     fun start(){
         outputView.startMessage()
         outputView.coachNameMessage()
+//        val test = FoodData.foodMap["일식"] ?: throw IllegalArgumentException("ㅠㅠ")
         coachName()
     }
 
@@ -15,16 +17,24 @@ class Controller(private val inputView : InputView, private val outputView: Outp
         while (true){
             try{
                 val coachList = inputView.readName()
+                noFood(coachList)
                 break
             }catch (e : IllegalArgumentException){
                 outputView.inputErrorMessage(e)
             }
         }
-        noFood()
     }
 
-    fun noFood(){
-
+    fun noFood(coachList : List<String?>){
+        for (name in coachList){
+            outputView.noFoodMessage(name)
+            while (true){
+                try{
+                    val noFoodList = inputView.readNoFood()
+                } catch(e : IllegalArgumentException){
+                    outputView.noFoodErrorMessage(e)
+                }
+            }
+        }
     }
-
 }
