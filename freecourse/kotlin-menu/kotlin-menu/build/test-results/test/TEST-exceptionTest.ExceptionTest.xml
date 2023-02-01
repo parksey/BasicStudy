@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="exceptionTest.ExceptionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-27T13:06:36" hostname="DESKTOP-64NSNQ9" time="0.03">
+  <properties/>
+  <testcase name="못 먹는 음식이 점심 메뉴 추천 목록에 있는지 test()" classname="exceptionTest.ExceptionTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
