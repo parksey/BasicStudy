@@ -45,7 +45,6 @@ class Controller(private val inputView : InputView, private val outputView: Outp
     fun recommend(name : String?, noFoodList : List<String?>){
         val recommendMenu = RecommendMenu(name, noFoodList)
         recommendMenu.pickMenu()
-        println(recommendMenu.getCategory())
-        println(recommendMenu.getRecommendMenu())
+
     }
 }

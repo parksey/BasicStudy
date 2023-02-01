@@ -24,7 +24,7 @@ class NoFoodException {
     }
 
     fun noIncludeList(foodList: List<String?>){
-        if (checkEmpty(foodList)){
+        if (!checkEmpty(foodList)){
             if (checkInclude(foodList)){
                 throw IllegalArgumentException(NoInclude_List_Error)
             }
