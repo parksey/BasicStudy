@@ -3,27 +3,12 @@ package model
 import camp.nextstep.edu.missionutils.Randoms
 
 class RecommendMenu(val name : String?, val noFoodList : List<String?>) {
-    private var checkCategory : MutableList<Int> = mutableListOf()
     private val menuList = mutableListOf<String?>()
-    private val completeMenu = mutableListOf<String>()
-
-    fun pickCategory(){
-        while (true) {
-            val category = Randoms.pickNumberInRange(1, 5)
-            if (checkDuplicateCategory(category)) {
-                checkCategory.add(category)
-            }
-            if (checkCategory.size == 5) {
-                break
-            }
-        }
-        pickMenu()
-
-    }
+    private val category = RecommendCategory.checkCategory
 
     fun pickMenu(){
         menuList.add(name)
-        for (cate in checkCategory){
+        for (cate in category){
             when (cate){
                 1 -> makeMenuList(FoodData.foodMap["일식"])
                 2 -> makeMenuList(FoodData.foodMap["한식"])
@@ -50,20 +35,21 @@ class RecommendMenu(val name : String?, val noFoodList : List<String?>) {
         return false
     }
 
-
-    fun checkDuplicateCategory(category : Int) : Boolean{
-        if (checkCategory.isEmpty()){
-            return true
-        }
-        else{
-            if(checkCategory.count{ it == category } > 2){
-                return false
-            }
-        }
-        return true
-    }
-
     fun getRecommendMenu() : String{
         return menuList.joinToString(" | ", "[ ", " ]")
+    }
+
+    fun getCategory() : String{
+        val categoryList = mutableListOf<String>("카테고리")
+        for (cate in category){
+            when (cate){
+                1 -> categoryList.add("일식")
+                2 -> categoryList.add("한식")
+                3 -> categoryList.add("중식")
+                4 -> categoryList.add("아시안")
+                5 -> categoryList.add("양식")
+            }
+        }
+        return categoryList.joinToString(" | ", "[ ", " ]")
     }
 }

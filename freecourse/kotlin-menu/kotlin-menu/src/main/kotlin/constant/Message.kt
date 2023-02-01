@@ -18,3 +18,7 @@ const val FOOD_NULL = "잘못된 입력입니다. 다시 입력해 주세요."
 const val FOOD_RANGE_ERROR = "음식은 0~2개 이어야 합니다. 다시 입력해 주세요."
 const val NoInclude_List_Error = "점심 메뉴 추천 목록에 없습니다. 다시 입력해 주세요."
 const val FOOD_DUPLICATE_ERROR = "중복된 음식이 있습니다. 다시 입력해 주세요."
+
+// Recommend Food Message
+const val MENU_RESULT = "메뉴 추천 결과입니다."
+const val MENU_DAY = "[ 구분 | 월요일 | 화요일 | 수요일 | 목요일 | 금요일 ]"

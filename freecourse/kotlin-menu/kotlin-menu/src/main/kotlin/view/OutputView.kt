@@ -23,4 +23,10 @@ class OutputView {
     fun noFoodErrorMessage(e : IllegalArgumentException){
         println(e.message)
     }
+
+    fun menuResultMessage(){
+        println(MENU_RESULT)
+        println(MENU_DAY)
+        println()
+    }
 }
