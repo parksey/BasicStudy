@@ -1,6 +1,7 @@
 package view
 
 import constant.*
+import model.RecommendCategory
 
 
 class OutputView {
@@ -24,9 +25,17 @@ class OutputView {
         println(e.message)
     }
 
-    fun menuResultMessage(){
+    fun menuResultMessage(category : String, menuList : MutableList<String>){
         println(MENU_RESULT)
         println(MENU_DAY)
+        println(category)
+        for (menu in menuList){
+            println(menu)
+        }
+    }
+
+    fun finishMessage(){
         println()
+        println(FINISH)
     }
 }

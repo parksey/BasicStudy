@@ -27,4 +27,18 @@ object RecommendCategory {
         }
         return true
     }
+
+    fun getCategory() : String{
+        val categoryList = mutableListOf<String>("카테고리")
+        for (cate in checkCategory){
+            when (cate){
+                1 -> categoryList.add("일식")
+                2 -> categoryList.add("한식")
+                3 -> categoryList.add("중식")
+                4 -> categoryList.add("아시안")
+                5 -> categoryList.add("양식")
+            }
+        }
+        return categoryList.joinToString(" | ", "[ ", " ]")
+    }
 }

@@ -22,3 +22,6 @@ const val FOOD_DUPLICATE_ERROR = "중복된 음식이 있습니다. 다시 입�
 // Recommend Food Message
 const val MENU_RESULT = "메뉴 추천 결과입니다."
 const val MENU_DAY = "[ 구분 | 월요일 | 화요일 | 수요일 | 목요일 | 금요일 ]"
+
+// Finish Message
+const val FINISH = "추천을 완료했습니다."
