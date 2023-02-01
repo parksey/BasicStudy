@@ -1,6 +1,7 @@
 package controller
 
 import model.FoodData
+import model.RecommendMenu
 import view.InputView
 import view.OutputView
 
@@ -31,10 +32,18 @@ class Controller(private val inputView : InputView, private val outputView: Outp
             while (true){
                 try{
                     val noFoodList = inputView.readNoFood()
+                    recommend(name, noFoodList)
+                    break
                 } catch(e : IllegalArgumentException){
                     outputView.noFoodErrorMessage(e)
                 }
             }
         }
+    }
+
+    fun recommend(name : String?, noFoodList : List<String?>){
+        val recommendMenu = RecommendMenu(name, noFoodList)
+        recommendMenu.pickCategory()
+        println(recommendMenu.getRecommendMenu())
     }
 }
