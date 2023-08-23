@@ -1,0 +1,133 @@
+[33mcommit 5779c8c8e3f375b1d735021b059e278062f8d78d[m[33m ([m[1;36mHEAD -> [m[1;32mmenu[m[33m, [m[1;31morigin/menu[m[33m)[m
+Author: woogun <bome519@naver.com>
+Date:   Fri Jan 20 17:28:17 2023 +0900
+
+    test
+
+[33mcommit b4a204fc5dffcf46aca0168ca8c8515488590998[m
+Author: woogun <bome519@naver.com>
+Date:   Fri Jan 20 17:21:49 2023 +0900
+
+    test
+
+[33mcommit 3eae53bfccc958e3edb4502bf32c1fea9d877577[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Tue Dec 27 16:13:55 2022 +0900
+
+    docs(ALL): freecourse 미션들 추가
+
+[33mcommit 103d82118e055edd2522a029e0eddd743b6e726f[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Tue Dec 27 16:12:29 2022 +0900
+
+    revert
+
+[33mcommit c09c842390fcaf0be6ad38455ee6ff8e15cbfe5b[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Tue Dec 27 16:10:48 2022 +0900
+
+    Revert "docs(library/README.md): level3의 도서관 관리 프로그램 추가"
+    
+    This reverts commit 6208787617631366ed45c63be6cd47786ba6d6c6.
+
+[33mcommit 23dae4a3f6459120a5d780d5ceddbfe5ab9aab8a[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Tue Dec 27 16:07:06 2022 +0900
+
+    docs(README.md): 메인 README 작성
+
+[33mcommit 3efbf3e42213a87b4bd035727d5230ec58a137ff[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Tue Dec 27 15:59:44 2022 +0900
+
+    docs(ALL): freecourse 미션들 추가
+
+[33mcommit 6208787617631366ed45c63be6cd47786ba6d6c6[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 22:10:43 2022 +0900
+
+    docs(library/README.md): level3의 도서관 관리 프로그램 추가
+
+[33mcommit e16da6da500ff9075d36695038373e782e09b1f9[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 21:40:36 2022 +0900
+
+    docs(library/README.md): level2의 회원 설명 추가
+
+[33mcommit 7236a8b0b834d504c5dbab0b83ffeeab7ddf9d88[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 21:14:56 2022 +0900
+
+    docs(library/REAMD.md): level1의 도서관 설명 추가
+
+[33mcommit ac7477caee63d107699a7eb24449fd69352c5042[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 19:18:10 2022 +0900
+
+    docs(calc/README.md): level3의 계산기 설명 추가
+
+[33mcommit b3e9ebbb4b8192cb6ded4f03655a65d418b6f6a7[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 19:03:27 2022 +0900
+
+    docs(calc/README.md): level2의 계산기 설명 추가
+
+[33mcommit 5fb9d25fa33f9885fea5f488ae4a5f0838902ac3[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Sat Dec 24 18:50:32 2022 +0900
+
+    docs(calc/README.md): level1의 계산기 설명 추가
+
+[33mcommit c464930c970c37aa73ad2506200a071f89bd0b65[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 03:01:52 2022 +0900
+
+    docs(1.git/README.md): 링크 오류 변경
+
+[33mcommit 582c800eab469169fd869baa1ce330b58697c48a[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:59:51 2022 +0900
+
+    docs(1.git/havto/README.md): 깃 PR관련 추가 작성
+
+[33mcommit d1983102511a404b9be81374f3ce8112ff2a837c[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:42:51 2022 +0900
+
+    docs(README.md): git 완료
+
+[33mcommit 5a6ed3d59bc0af61b3109ef12e9222017b5fe28a[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:37:46 2022 +0900
+
+    docs(1.git/haveto/README.md): git add 까지의 내용 업데이트
+
+[33mcommit fa4b3353ef79c41473b6f152ad5c3acd0426d0ca[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:14:49 2022 +0900
+
+    docs(1.git/README.md): 이미지 오류 해결
+
+[33mcommit c9799eb2d0fa6cfcc5dc71f3165ce16844c47ebc[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:13:33 2022 +0900
+
+    docs(1.git/README.md): 오류 해결
+
+[33mcommit bc0b13439cb3bd6e81c4ce715c6457a424ce18c2[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 02:09:29 2022 +0900
+
+    docs(1.git/README.md): git clone후 코드 작성까지의 상황 작성
+
+[33mcommit 58af1d804616af7bf89518547b1cf7baeaea2309[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 01:36:58 2022 +0900
+
+    docs(1.git/README.md): 깃에 대한 초기 설명 작성
+
+[33mcommit 2b5cef20006a54ace87f36bea5f4fb5e486dce1d[m
+Author: parksey <parkseyeon99@naver.com>
+Date:   Fri Dec 23 01:13:00 2022 +0900
+
+    docs(Init): 초기화
